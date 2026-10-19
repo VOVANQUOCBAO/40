@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f2e8">
+  <meta name="description" content="Trang học tập của Võ Văn Quốc Bảo — các bài tập web 38, 39 và mini game hứng táo bài 40.">
+  <title>Võ Văn Quốc Bảo — Bài tập Web</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Bảo, về đầu trang"><span class="brand-mark">B</span><span>BAO<span class="brand-dot">.</span><small>HỒ SƠ HỌC TẬP</small></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Mở menu">☰</button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Điều hướng chính">
+      <a href="#bai-tap">Bài tập</a>
+      <a href="bai-38/index.html">Bài 38</a>
+      <a href="bai-39/index.html">Bài 39</a>
+      <a class="nav-game" href="bai-40/index.html">Chơi mini game <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero page-width" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> BÀI TẬP THIẾT KẾ WEB · 2026</p>
+        <h1 id="hero-title">Xin chào,<br>mình là <em>Quốc Bảo.</em></h1>
+        <p class="hero-lead">Mình đang học cách biến những dòng mã thành các trang web giàu hình ảnh và trải nghiệm. Đây là nơi lưu lại một vài bài thực hành của mình.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#bai-tap">Xem các bài tập <span aria-hidden="true">↓</span></a>
+          <a class="button button-text" href="bai-40/index.html">Thử trò hứng táo <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="identity-row">
+          <span class="identity-label">SINH VIÊN</span>
+          <span class="identity-name">Võ Văn Quốc Bảo</span>
+          <span class="identity-divider" aria-hidden="true"></span>
+          <span class="identity-label">MSSV</span>
+          <strong class="student-code">231a290036</strong>
+        </div>
+      </div>
+      <div class="hero-portrait-wrap">
+        <div class="portrait-orbit orbit-one" aria-hidden="true"></div>
+        <div class="portrait-orbit orbit-two" aria-hidden="true"></div>
+        <div class="portrait-frame"><img src="assets/profile.jpg" alt="Chân dung Võ Văn Quốc Bảo" width="420" height="520"></div>
+        <div class="portrait-sticker"><span>✳</span><small>HỌC HỎI<br>MỖI NGÀY</small></div>
+        <p class="portrait-caption">THIẾT KẾ · LẬP TRÌNH · SÁNG TẠO</p>
+      </div>
+      <span class="hero-index" aria-hidden="true">01 / 03</span>
+    </section>
+
+    <section class="work-section" id="bai-tap" aria-labelledby="work-title">
+      <div class="page-width">
+        <div class="section-heading">
+          <div><p class="eyebrow">MỘT VÀI SẢN PHẨM</p><h2 id="work-title">Bài tập của mình<span>.</span></h2></div>
+          <p>Mỗi bài là một lần thử nghiệm với giao diện, hình ảnh và JavaScript.</p>
+        </div>
+
+        <div class="project-grid">
+          <a class="project-card project-card-quiz" href="bai-38/index.html">
+            <div class="project-preview quiz-preview"><img src="assets/bai-38-ket-qua.jpg" alt="Ảnh kết quả bài tập 38" loading="lazy"><span class="preview-tag">KẾT QUẢ</span></div>
+            <div class="project-meta"><span>BÀI TẬP 38</span><span aria-hidden="true">↗</span></div>
+            <h3>Kết quả JavaScript</h3><p>Màn hình kết quả bài thực hành trước.</p>
+          </a>
+
+          <a class="project-card project-card-lantern" href="bai-39/index.html">
+            <div class="project-preview lantern-preview" aria-hidden="true"><div class="lantern-glow"></div><div class="lantern"><span>中</span></div><i class="spark spark-a">✦</i><i class="spark spark-b">✳</i></div>
+            <div class="project-meta"><span>BÀI TẬP 39</span><span aria-hidden="true">↗</span></div>
+            <h3>Đèn kéo quân</h3><p>Sáu mặt ảnh xoay tròn, rê chuột để tạm dừng.</p>
+          </a>
+
+          <a class="project-card project-card-game" href="bai-40/index.html">
+            <div class="project-preview game-preview" aria-hidden="true"><span class="game-sun"></span><span class="game-cloud cloud-a">☁</span><span class="game-cloud cloud-b">☁</span><span class="game-apple">🍎</span><span class="game-basket">🧺</span><span class="game-ground"></span><span class="game-score">ĐIỂM&nbsp; 08</span></div>
+            <div class="project-meta"><span>BÀI TẬP 40</span><span aria-hidden="true">↗</span></div>
+            <h3>Hứng táo!</h3><p>Điều khiển chiếc giỏ, đón những quả táo rơi.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer page-width"><a class="brand footer-brand" href="#home"><span class="brand-mark">B</span><span>BAO<span class="brand-dot">.</span></span></a><p>Võ Văn Quốc Bảo · MSSV 231a290036</p><a href="#home">Lên đầu trang ↑</a></footer>
+</body>
+</html>
