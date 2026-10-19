@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#d7c8b9"/><stop offset="1" stop-color="#eee6db"/></linearGradient></defs>
+  <rect width="1000" height="600" fill="url(#bg)"/>
+  <rect x="170" y="112" width="660" height="376" rx="14" fill="#f8f3eb" stroke="#c9b9a8" stroke-width="2"/>
+  <rect x="170" y="112" width="660" height="48" rx="14" fill="#2d263a"/>
+  <circle cx="202" cy="136" r="6" fill="#ed8c77"/><circle cx="223" cy="136" r="6" fill="#efc16f"/><circle cx="244" cy="136" r="6" fill="#89b78c"/>
+  <text x="500" y="250" fill="#8d6554" font-family="Arial,sans-serif" font-size="19" letter-spacing="4" text-anchor="middle">ẢNH KẾT QUẢ BÀI TẬP 38</text>
+  <text x="500" y="312" fill="#32283d" font-family="Georgia,serif" font-size="36" font-weight="bold" text-anchor="middle">Thêm ảnh chụp màn hình tại đây</text>
+  <text x="500" y="365" fill="#7f7480" font-family="Arial,sans-serif" font-size="18" text-anchor="middle">Đặt tên file: bai-38-ket-qua.png</text>
+  <text x="500" y="424" fill="#a07352" font-family="Arial,sans-serif" font-size="14" letter-spacing="3" text-anchor="middle">VÕ VĂN QUỐC BẢO · BÀI TẬP 39</text>
+</svg>
