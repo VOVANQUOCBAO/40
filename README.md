@@ -15,9 +15,4 @@ Mở `index.html` bằng trình duyệt. Chọn **Bài tập 38**, **Bài tập 
 - `bai-40/index.html`, `bai-40/style.css`, `bai-40/game.js`: mini game hứng táo.
 - `netlify.toml`: cấu hình thư mục publish tĩnh.
 
-## Deploy lên Netlify
-
-Project là website tĩnh; lệnh build không cần thiết. Cách nhanh nhất là mở [Netlify Drop](https://app.netlify.com/drop) rồi kéo thả toàn bộ thư mục `baitap40-mini-game` vào vùng deploy. Netlify sẽ cấp đường dẫn `*.netlify.app` sau khi deploy thành công.
-
-Nếu import từ Git, chọn thư mục gốc của project làm **Base directory**, để trống **Build command**, và đặt **Publish directory** là `.`.
 
