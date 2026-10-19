@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171328">
+  <meta name="description" content="Bài tập 39 của Võ Văn Quốc Bảo: đèn kéo quân 6 mặt ảnh, quay bằng JavaScript và CSS 3D.">
+  <title>Bài 39 — Đèn kéo quân | Võ Văn Quốc Bảo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="submission.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="BAO Studio, về đầu trang"><span class="brand-mark">B</span><span>BAO<span class="brand-dot">.</span><small>WEB JOURNAL · 2026</small></span></a>
+    <nav aria-label="Điều hướng chính"><a href="../index.html">Trang chủ</a><a href="#bai-38">Bài 38</a><a href="#den-keo-quan">Bài 39</a><a href="#about">Thông tin</a></nav>
+    <a class="top-cta" href="#den-keo-quan">Khám phá <span aria-hidden="true">↘</span></a>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> BÀI TẬP WEB · JAVASCRIPT</p>
+        <h1>Một vòng<br>ký ức <em>lung linh.</em></h1>
+        <p class="hero-intro">Đèn kéo quân mang theo những khoảnh khắc yêu thích. Chạm vào một mặt đèn để dừng lại, ngắm nhìn câu chuyện bên trong.</p>
+        <a class="hero-link" href="#den-keo-quan">XEM ĐÈN KÉO QUÂN <span aria-hidden="true">↓</span></a>
+        <div class="hero-byline"><span class="avatar">B</span><span>THỰC HIỆN BỞI<strong>Võ Văn Quốc Bảo</strong><small class="student-code">MSSV: 231a290036</small></span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-lantern"><div class="hero-lantern-top"></div><div class="hero-lantern-body"><span>中</span></div><div class="hero-lantern-bottom"></div><i></i></div>
+        <span class="spark spark-one">✳</span><span class="spark spark-two">✦</span><span class="spark spark-three">✧</span>
+        <span class="art-label label-top">TẾT TRUNG THU · 2026</span><span class="art-label label-bottom">MỘT CHIẾC ĐÈN · SÁU KHOẢNH KHẮC</span>
+      </div>
+      <div class="hero-index"><span>01</span><i></i><span>02</span></div>
+    </section>
+
+    <section class="work-section" id="bai-38">
+      <div class="section-heading"><div><p class="eyebrow">01 / BÀI TẬP TRƯỚC</p><h2>Tiếp nối hành trình.</h2></div><p>Mỗi bài tập là một bước nhỏ trên con đường học cách tạo nên trải nghiệm trên web.</p></div>
+      <a class="previous-card" href="assets/bai-38-ket-qua.jpg" target="_blank" rel="noreferrer">
+        <img src="assets/bai-38-ket-qua.jpg" alt="Ảnh kết quả Quizizz JavaScript của Bài tập 38">
+        <span class="previous-card-copy"><span class="eyebrow">BÀI TẬP 38 · KẾT QUẢ QUIZIZZ</span><strong>JavaScript · Quizizz</strong><small>Nhấn để xem ảnh kết quả Bài 38</small></span>
+        <span class="card-arrow" aria-hidden="true">↗</span>
+      </a>
+      <p class="small-note">Ảnh kết quả do bạn gửi; source của Bài 38 chưa có trong repo.</p>
+    </section>
+
+    <section class="lantern-section" id="den-keo-quan">
+      <div class="section-heading lantern-heading"><div><p class="eyebrow">02 / BÀI TẬP 39 · TƯƠNG TÁC JAVASCRIPT</p><h2>Đèn kéo quân.</h2></div><p>Sáu mặt đèn xoay chậm trong không gian. Rê chuột vào ảnh để tạm dừng; nhấn nút nếu bạn đang dùng màn hình cảm ứng.</p></div>
+      <div class="lantern-stage" id="lantern-stage" aria-label="Đèn kéo quân có sáu mặt ảnh, đang quay">
+        <div class="stage-stars" aria-hidden="true"><i>✦</i><i>·</i><i>✧</i><i>·</i><i>✦</i><i>·</i><i>✧</i></div>
+        <div class="lantern-halo" aria-hidden="true"></div>
+        <div class="lantern-string" aria-hidden="true"></div>
+        <div class="lantern-roof" aria-hidden="true"><span></span></div>
+        <div class="lantern-rotator" id="lantern-rotator" role="group" aria-label="Sáu hình ảnh trên đèn kéo quân">
+          <button class="lantern-face face-1" type="button" aria-label="Mặt đèn 1: Núi non" data-title="Núi non" data-caption="Một miền xanh tĩnh lặng."><img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&amp;fit=crop&amp;w=720&amp;q=85" alt="Hồ nước yên bình giữa núi rừng"><span class="face-caption"><small>01 / THIÊN NHIÊN</small><b>Núi non</b></span></button>
+          <button class="lantern-face face-2" type="button" aria-label="Mặt đèn 2: Con đường xanh" data-title="Con đường xanh" data-caption="Một chuyến đi chậm rãi qua miền xanh mát."><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&amp;fit=crop&amp;w=720&amp;q=85" alt="Con đường nhỏ xuyên qua cánh đồng"><span class="face-caption"><small>02 / HÀNH TRÌNH</small><b>Con đường xanh</b></span></button>
+          <button class="lantern-face face-3" type="button" aria-label="Mặt đèn 3: Đại dương" data-title="Đại dương" data-caption="Sắc xanh bất tận của biển và sóng."><img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&amp;fit=crop&amp;w=720&amp;q=85" alt="Sóng biển vỗ vào bờ"><span class="face-caption"><small>03 / BIỂN XANH</small><b>Đại dương</b></span></button>
+          <button class="lantern-face face-4" type="button" aria-label="Mặt đèn 4: Nắng sớm" data-title="Nắng sớm" data-caption="Ánh bình minh khẽ chạm đồi xa."><img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&amp;fit=crop&amp;w=720&amp;q=85" alt="Ánh nắng bình minh trên đồi"><span class="face-caption"><small>04 / BAN MAI</small><b>Nắng sớm</b></span></button>
+          <button class="lantern-face face-5" type="button" aria-label="Mặt đèn 5: Trong lòng rừng" data-title="Trong lòng rừng" data-caption="Những tia nắng xuyên qua tán lá xanh."><img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&amp;fit=crop&amp;w=720&amp;q=85" alt="Ánh sáng xuyên qua rừng cây"><span class="face-caption"><small>05 / RỪNG XANH</small><b>Trong lòng rừng</b></span></button>
+          <button class="lantern-face face-6" type="button" aria-label="Mặt đèn 6: Hoàng hôn" data-title="Hoàng hôn" data-caption="Một ngày dịu dàng khép lại trên miền núi."><img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&amp;fit=crop&amp;w=720&amp;q=85" alt="Phong cảnh núi non lúc hoàng hôn"><span class="face-caption"><small>06 / HOÀNG HÔN</small><b>Hoàng hôn</b></span></button>
+        </div>
+        <div class="lantern-base" aria-hidden="true"><span></span></div>
+        <div class="stage-hint" aria-hidden="true"><span>✳</span> RÊ CHUỘT LÊN MỘT MẶT ĐÈN ĐỂ DỪNG</div>
+      </div>
+      <div class="lantern-controls"><div class="selected-memory" aria-live="polite"><span class="memory-icon">✳</span><span><small>ĐANG NGẮM NHÌN</small><strong id="memory-title">Một vòng ký ức</strong><em id="memory-caption">Chọn một mặt đèn để xem câu chuyện.</em></span></div><div class="control-actions"><span class="spin-state" id="spin-state"><i></i> ĐÈN ĐANG QUAY</span><button class="pause-button" id="pause-button" type="button" aria-pressed="false"><span class="pause-symbol" aria-hidden="true">Ⅱ</span><span id="pause-label">Tạm dừng</span></button></div></div>
+      <p class="photo-note"><span>GHI CHÚ</span> Sáu ảnh hiện tại là ảnh minh họa từ album Bài 30. Hãy thay bằng ảnh do bạn tự chụp trước khi nộp bài; hướng dẫn đổi ảnh ở <a href="README.md">README.md</a>.</p>
+    </section>
+
+    <section class="about-section" id="about"><div class="about-number">39</div><div><p class="eyebrow">NGƯỜI THỰC HIỆN</p><h2>Võ Văn Quốc Bảo</h2><p>Người học lập trình web, yêu thích thiết kế giao diện và biến ý tưởng thành sản phẩm số.</p><a class="student-proof" href="assets/ket-qua-bai-39.png">ẢNH CHỤP MÀN HÌNH KẾT QUẢ ↗</a></div><div class="student-id"><span>MÃ SINH VIÊN</span><strong>231a290036</strong><small>BÀI TẬP 39 · JAVASCRIPT</small></div></section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span class="brand-mark">B</span><span>BAO<span class="brand-dot">.</span><small>WEB JOURNAL · 2026</small></span></a><span>BÀI TẬP 39 · ĐÈN KÉO QUÂN</span><a href="#home">LÊN ĐẦU TRANG ↑</a></footer>
+</body>
+</html>
