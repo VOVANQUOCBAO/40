@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f2e8">
+  <meta name="description" content="Mini game hứng táo Bài 40 — Võ Văn Quốc Bảo, MSSV 231a290036.">
+  <title>Bài 40 — Hứng táo! | Võ Văn Quốc Bảo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="game.js" defer></script>
+</head>
+<body>
+  <header class="game-header">
+    <a class="back-link" href="../index.html">← Trang chủ</a>
+    <span class="student-chip">VÕ VĂN QUỐC BẢO <b>·</b> 231a290036</span>
+  </header>
+  <main class="game-page">
+    <section class="game-intro">
+      <p class="eyebrow"><span></span> BÀI TẬP 40 · JAVASCRIPT</p>
+      <h1>Hứng táo<span>!</span></h1>
+      <p>Di chuyển chiếc giỏ để hứng táo đang rơi. Càng hứng được nhiều, táo càng rơi nhanh!</p>
+    </section>
+
+    <section class="play-layout" aria-label="Mini game hứng táo">
+      <div class="play-column">
+        <div class="game-hud" aria-live="polite">
+          <div class="hud-card"><span>ĐIỂM</span><strong id="score">0</strong></div>
+          <div class="hud-card lives-card"><span>MẠNG</span><strong><span id="lives">3</span><span class="heart-icon" aria-hidden="true">♥</span></strong></div>
+          <button id="start-button" class="start-button" type="button">Bắt đầu <span aria-hidden="true">→</span></button>
+        </div>
+
+        <div id="game-container" class="game-container" role="application" aria-label="Khung game hứng táo. Dùng phím mũi tên trái và phải để di chuyển giỏ.">
+          <div class="game-sky" aria-hidden="true"><span class="sun"></span><span class="cloud cloud-one">☁</span><span class="cloud cloud-two">☁</span><span class="hill hill-back"></span><span class="hill hill-front"></span></div>
+          <div id="apple" class="apple" role="img" aria-label="Quả táo">🍎</div>
+          <div id="basket" class="basket" role="img" aria-label="Giỏ hứng táo"><span aria-hidden="true">🧺</span></div>
+          <div class="ground" aria-hidden="true"></div>
+          <div id="game-overlay" class="game-overlay">
+            <div class="overlay-card"><span class="overlay-apple" aria-hidden="true">🍎</span><p id="game-message">Sẵn sàng chưa?</p><small>Dùng ← → để di chuyển chiếc giỏ</small></div>
+          </div>
+        </div>
+
+        <div class="touch-controls" aria-label="Điều khiển giỏ">
+          <button id="left-button" type="button" aria-label="Di chuyển giỏ sang trái">←</button>
+          <span>DI CHUYỂN GIỎ</span>
+          <button id="right-button" type="button" aria-label="Di chuyển giỏ sang phải">→</button>
+        </div>
+      </div>
+
+      <aside class="game-notes">
+        <div class="note-number">40</div>
+        <p class="eyebrow">CÁCH CHƠI</p>
+        <h2>Bắt lấy<br>những quả táo.</h2>
+        <ul>
+          <li><span>01</span>Dùng phím mũi tên trái/phải để lái giỏ.</li>
+          <li><span>02</span>Hứng táo để ghi thêm 1 điểm.</li>
+          <li><span>03</span>Bỏ lỡ 3 quả là kết thúc lượt chơi.</li>
+        </ul>
+        <a class="home-link" href="../index.html">Xem các bài tập khác <span aria-hidden="true">↗</span></a>
+      </aside>
+    </section>
+    <footer class="game-footer"><span>MINI GAME · BÀI TẬP WEB 40</span><span>THỰC HIỆN BỞI VÕ VĂN QUỐC BẢO</span></footer>
+  </main>
+</body>
+</html>
